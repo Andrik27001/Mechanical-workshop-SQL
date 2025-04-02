@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Pasos">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(local):curso">
+          <Created>2025-04-02T10:16:15.7171348+02:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)</Server>
+          <UserName>curso</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>AdventureWorks2022</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01_crear_DB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):False:curso</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName>curso</AssociatedConnUserName>
+          <FullPath>01_crear_DB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_crear_tipos_datos_usuario.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):False:curso</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName>curso</AssociatedConnUserName>
+          <FullPath>02_crear_tipos_datos_usuario.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03_crear_tabla_clientes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):False:curso</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName>curso</AssociatedConnUserName>
+          <FullPath>03_crear_tabla_clientes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_crear_tabla_vehiculos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):False:curso</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName>curso</AssociatedConnUserName>
+          <FullPath>04_crear_tabla_vehiculos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05_crear_tabla_reparaciones.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):False:curso</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName>curso</AssociatedConnUserName>
+          <FullPath>05_crear_tabla_reparaciones.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06_crear_tabla_facturas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):False:curso</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName>curso</AssociatedConnUserName>
+          <FullPath>06_crear_tabla_facturas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07_insertar_clientes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):False:curso</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName>curso</AssociatedConnUserName>
+          <FullPath>07_insertar_clientes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08_insertar_vehiculos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):False:curso</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName>curso</AssociatedConnUserName>
+          <FullPath>08_insertar_vehiculos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09_crear_proc_reparaciones.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):False:curso</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName>curso</AssociatedConnUserName>
+          <FullPath>09_crear_proc_reparaciones.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10_crear_proc_facturas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):False:curso</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName>curso</AssociatedConnUserName>
+          <FullPath>10_crear_proc_facturas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11_exec_proc_reparaciones.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):False:curso</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName>curso</AssociatedConnUserName>
+          <FullPath>11_exec_proc_reparaciones.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12_exec_proc_facturas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):False:curso</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName>curso</AssociatedConnUserName>
+          <FullPath>12_exec_proc_facturas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13_primera_consulta.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):False:curso</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName>curso</AssociatedConnUserName>
+          <FullPath>13_primera_consulta.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14_segunda_consulta.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):False:curso</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName>curso</AssociatedConnUserName>
+          <FullPath>14_segunda_consulta.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15_tercera_consulta.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):False:curso</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName>curso</AssociatedConnUserName>
+          <FullPath>15_tercera_consulta.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
